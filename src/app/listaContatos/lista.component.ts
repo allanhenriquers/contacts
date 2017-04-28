@@ -2,11 +2,14 @@ import { Component } from '@angular/core';
 import { Contato } from '../contato/contato.component'
 
 @Component({
-    selector: 'brand',
-    templateUrl: '../../../htmls/brand.html',
+    selector: 'listaContatos',
+    templateUrl: 'listaContatos.html',
 })
 
 export class listaContatos {
-  
-  contato: Array<Contato> ;
+
+  contato: Contato = new Contato("allan", "19981982528", "rua um", "this is it");
+  contatos: Array<Contato> = new Array<Contato>();
+  // this.contatos.push();
+
 }

@@ -6,7 +6,7 @@ import { Contato } from '../contato/contato.component'
     templateUrl: 'listaContatos.html',
 })
 
-export class listaContatos {
+export class ListaComponent {
 
   contato: Contato = new Contato("allan", "19981982528", "rua um", "this is it");
   contatos: Array<Contato> = new Array<Contato>();

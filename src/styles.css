@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.jumbotron {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.tdContactsCentered {
+    vertical-align: middle;
+}
+
+.centered {
+    vertical-align: middle;
+}

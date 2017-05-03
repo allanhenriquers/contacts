@@ -8,8 +8,15 @@ import { Contato } from '../contato/contato.component'
 
 export class ListaComponent {
 
-  contato: Contato = new Contato("allan", "19981982528", "rua um", "this is it");
-  contatos: Array<Contato> = new Array<Contato>();
-  // this.contatos.push();
+contato: Contato;
+contatos: Array<Contato> = [new Contato("allan", "19981982528", "rua um", "this is it"),new Contato("Enzo", "12323214232", "rua dois", "it's not")];
 
 }
+
+var contato1: Contato = new Contato("allan", "19981982528", "rua um", "this is it");
+var contato2: Contato = new Contato("Enzo", "12323214232", "rua dois", "it's not");
+var contato3: Contato = new Contato("Gael", "12323214244", "rua tres", "maybe");
+
+// this.contatos.push(contato1);
+// this.contatos.push(contato2);
+// this.contatos.push(contato3);

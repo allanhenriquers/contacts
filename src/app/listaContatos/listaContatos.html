@@ -1,5 +1,20 @@
-<div *ngFor="let contato of contatos">
-    {{contato.nome}}
-    {{contato.cel}}
-    {{contato.endereco}}
+
+<div class="jumbotron">
+    <table class="table-bordered table-striped">
+      <thead>
+        <tr class="centered">
+          <th scope="col">nome</th>
+          <th scope="col">cel</th>
+          <th scope="col">endereco</th>
+        </tr>
+      </thead>
+        <tbody class="centered" *ngFor="let contato of contatos">
+          <td class="tdContactsCentered">{{contato.nome}}</td>
+          <td class="tdContactsCentered">{{contato.cel}}</td>
+          <td class="tdContactsCentered">{{contato.endereco}}</td>
+          <input type="button" value="atualiza">
+          <input type="button" value="remove">
+        </tbody>
+        <input type="button" value="adiciona">
+    </table>
 </div>
